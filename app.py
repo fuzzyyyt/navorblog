@@ -8,15 +8,15 @@ app = Flask(__name__)
 
 # --- ⚠️ 중요: 네이버 API 인증 정보 입력 ⚠️ ---
 # 실제 값으로 대체해야 합니다!
-CLIENT_ID = "rp4gWjzI5KM1csxw_vrG" 
-CLIENT_SECRET = ""
+CLIENT_ID = "9qhhCbhdPQ2qTC33REwI" 
+CLIENT_SECRET = 'nalAdqr2TI'
 # ---------------------------------------------
 
 # 네이버 블로그 검색 API URL
 NAVER_API_URL = "https://openapi.naver.com/v1/search/blog.json"
 DB_NAME = 'search_rank.db' # SQLite 데이터베이스 파일 이름
 
-# ==========================================================
+# =======================================================python app.py===
 # 🔍 SQLite 데이터베이스 관리 함수
 # ==========================================================
 
